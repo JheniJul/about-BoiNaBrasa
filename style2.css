@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #DCE0E4;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#header{
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+#conteudo h2, footer h2{
+    border: 2px solid #0F0F0F;
+    box-shadow: 15px 10px #0F0F0F;
+    background-color: #DFC26E;
+    padding: 0px 5px;
+    width: 95.4%;
+    font-size: 27px;
+}
+
+#nave{
+    display: flex;
+    height: 1350px;
+    float: right;
+    background-color: #0F0F0F ;
+    padding: 5px;
+}
+nav{
+    border: 1px solid #DCE0E4;
+}
+
+nav ul li {
+    list-style:none;
+    padding: 10px 10px;
+}
+nav ul li a {
+    display: block;
+    color: #DCE0E4;
+    padding: 0px 20px;
+    text-decoration: none; 
+    font-size: 17px;
+}
+    
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#cabeca h2{
+    margin-top: 70px;
+    text-align: center;
+    width: 75%;
+    transform: translateX(15%);
+
+    border: 2px solid #0F0F0F;
+    color: #0F0F0F;
+    box-shadow: 15px 10px #0F0F0F;
+    background-color: #DFC26E;
+}
+#cabeca p{
+    top: -50px;
+}
+
+#texto, #cabeca p{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    transform: translateX(26%);
+    padding: 70px 0px;
+    position: relative;
+}
+#cabeca img{
+    height: 220px;
+    width: 220px;
+    position: relative;
+    padding: 30px;
+    margin: 0px 54%;
+}
+
+#cabeca .img{
+    display: inline-block;
+    width:23%;
+    position: relative;
+    top: -110px;
+}
+
+#texto{
+    top: -130px;
+}
+
+table{
+    width: 100%;
+}
+table .titulo{
+    background-color: #0F0F0F;
+    color: #DCE0E4;
+    padding: 1px 10px;
+}
+
+#ultima{
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    transform: translateX(26%);
+    padding: 68.5px 0px;
+}
+
+
+aside{
+    float: left;
+    width: 14%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    color: #DCE0E4;
+    background-color: #0F0F0F;
+    padding: 3px 10px;
+}
+aside img{
+    width: 200px;
+    height: 320px;
+    padding: 5px 0px;
+    border: 1px solid #DCE0E4;
+    position: relative;
+    top: 2px;
+}
+
+#baixo{
+    background-color: black;
+    color: #DCE0E4;
+    height: auto;
+    font-size: 15px;
+}
+
+footer #pe{
+    padding: 30px 100px;
+}
+
+footer spam{
+    font-size: 20px;
+}
+
+footer p{
+    padding: 5px 5px;
+}

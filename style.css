@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #DCE0E4;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-image: url(banner.png);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+h2{
+    border: 2px solid #0F0F0F;
+    box-shadow: 15px 10px #0F0F0F;
+    background-color: #DFC26E;
+    padding: 0px 5px;
+    width: 64%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F0F0F;
+    height: 40px; 
+    position: relative;
+    top: 300px;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+    list-style:none;
+}
+nav ul li a {
+    display: block;
+    color: #DCE0E4;
+    padding: 0px 55px;
+    text-decoration: none; 
+    font-size: 17px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+p, h2{
+    margin: 0px 180px;
+}
+#intro, #ambiente{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #DCE0E4;
+    color: black;
+}
+#ambiente img{
+    height: 220px;
+    width: 220px;
+    position: relative;
+    padding: 30px;
+    margin: 0px 155px;
+}
+
+#ambiente .img{
+    display: inline-block;
+    width:23%;
+}
+
+
+#menu{
+    display: flex;
+    align-items: center;
+    padding: 80px 0px;
+    width: 40%;
+    height: auto;
+    background-color: #DCE0E4;
+    color: black;
+}
+#menu table{
+    position: relative;
+    width: 500px;
+    transform: translateX(60%);
+}
+
+#menu h2{
+    width: 717px;
+}
+#menu .titulo{
+    background-color: #0F0F0F;
+    color: #DCE0E4;
+    padding: 7px 10px;
+}
+aside{
+    float: right;
+    width: 16%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    color: #DCE0E4;
+    background-color: #0F0F0F;
+    padding: 3px 10px;
+}
+aside img{
+    width: 220px;
+    height: 360px;
+    padding: 5px 0px;
+    border: 1px solid #DCE0E4;
+    position: relative;
+    top: 2px;
+    
+}
+
+footer{
+    background-color: black;
+    color: #DCE0E4;
+    height: auto;
+    font-size: 15px;
+}
+footer #pe{
+    padding: 30px 100px;
+}
+
+footer spam{
+    font-size: 20px;
+}
+
+footer p{
+    padding: 5px 5px;
+}
